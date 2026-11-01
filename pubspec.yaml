@@ -1,0 +1,24 @@
+name: ultra_fit_app
+description: "UltraFit AI - Multi-user Fitness, Health Connect, Gemini Vision Scanner & Hydration Tracker"
+publish_to: 'none'
+version: 1.1.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^17.0.0
+  health: ^11.0.0
+  google_generative_ai: ^0.4.0
+  image_picker: ^1.1.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
